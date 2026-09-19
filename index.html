@@ -317,11 +317,12 @@
 <div class="grid cards" style="margin-bottom:16px">
   <div class="card">
     <div class="kpi-label">團隊推算時間</div>
-    <div class="kpi-value">28h44</div>
-    <div class="kpi-sub">範圍 27h16 – 31h14</div>
+    <div class="kpi-value">34h05</div>
+    <div class="kpi-sub">範圍 30h17 – 46h31</div>
     <div class="kpi-note">
-      平均 <b>3.48 km/h</b>　·　截止 48 h<br>
-      25 小時目標需要 <b>4.00 km/h</b>
+      平均 <b>2.93 km/h</b>　·　截止 48 h<br>
+      25 小時目標需要 <b>4.00 km/h</b><br>
+      不計疲勞項 <b>28h44</b>（疲勞項 <b>+5h21</b>）
     </div>
   </div>
   <div class="card">
@@ -329,19 +330,45 @@
     <div class="kpi-value" style="font-size:26px">Ryan K.　Aiden W.</div>
     <div class="kpi-sub">團隊須同時起步同時衝線，時間由當日最慢一員決定</div>
     <div class="kpi-note">
-      <b>9/12 日</b> Ryan K. → 29h28<span class="dim">（全程只差 6 分鐘）</span><br><b>9/19 夜</b> Aiden W. → 28h01<span class="dim">（全程只差 10 分鐘）</span><br>
+      <b>9/12 日</b> Ryan K. → 34h58<span class="dim">（全程只差 6 分鐘）</span><br><b>9/19 夜</b> Aiden W. → 33h13<span class="dim">（全程只差 10 分鐘）</span><br>
       兩次合計等效配速（總時間）：Aiden W. 9'54"　Justin L. 9'38"　Ryan K. 9'52"　Alan N. 9'58"
     </div>
   </div>
   <div class="card">
     <div class="kpi-label">情境 · 節奏統一到隊中最佳</div>
-    <div class="kpi-value" style="font-size:26px">27h40</div>
+    <div class="kpi-value" style="font-size:26px">32h49</div>
     <div class="kpi-sub">以 Justin L. 9'38" 的等效配速為全隊目標</div>
     <div class="kpi-note">
-      即全隊由 3.48 km/h 提升到 <b>3.61 km/h</b>，
-      推算時間縮短約 <b>1h04</b>。
+      即全隊由 2.93 km/h 提升到 <b>3.05 km/h</b>，
+      推算時間縮短約 <b>1h16</b>。
     </div>
   </div>
+</div>
+
+<div class="card" style="margin-bottom:16px">
+  <h3 style="margin:0 0 6px;font-size:14px;font-weight:600">疲勞項 · 肌肉耐力衰減</h3>
+  <p class="hint" style="margin:0 0 12px">
+    上述推算把最長 <b>38.5 等效公里</b>的共同長課放大到 145 等效公里，距離拉長 <b>4.37× ／ 3.90×</b>。
+    純距離縮放會假設配速的退化率一路不變，但肌肉耐力不會如此：離心損傷與肝醣耗盡會累積，距離越長跌得越快。
+    這個效應在本人的數據可以看見 —— 22 至 52 等效公里的配速持平（每等效公里約 6.0 分鐘，隱含指數 1.00），
+    但 77 等效公里（3 月 22 日 51.88 km／+2540 m 賽事）跌到 6.59 分鐘，隱含指數升至 1.21。
+    該場賽事平均心率 150 bpm，而參考課只有 133 bpm —— 單是強度差異本身應該令賽事更快，
+    所以量度到的衰減其實偏保守。
+  </p>
+  <div class="tablewrap proj">
+  <table>
+    <thead><tr>
+      <th>情境</th><th>拐點後指數增量</th><th>離心下降項</th><th>團隊推算</th><th>與無疲勞之差</th>
+    </tr></thead>
+    <tbody><tr><td data-l="情境">無疲勞 · 純距離縮放</td><td data-l="拐點後指數增量">+0.00</td><td data-l="離心下降項">—</td><td data-l="團隊推算">28h44</td><td data-l="與無疲勞之差" class="dim">—</td></tr><tr><td data-l="情境">輕度</td><td data-l="拐點後指數增量">+0.08</td><td data-l="離心下降項">—</td><td data-l="團隊推算">31h55</td><td data-l="與無疲勞之差" class="dim">+3h11</td></tr><tr><td data-l="情境"><b>中度 · 中央</b></td><td data-l="拐點後指數增量">+0.13</td><td data-l="離心下降項">—</td><td data-l="團隊推算"><b>34h05</b></td><td data-l="與無疲勞之差" class="dim">+5h21</td></tr><tr><td data-l="情境">重度 · 含離心項</td><td data-l="拐點後指數增量">+0.20</td><td data-l="離心下降項">+0.08</td><td data-l="團隊推算">41h46</td><td data-l="與無疲勞之差" class="dim">+13h02</td></tr></tbody>
+  </table>
+  </div>
+  <p class="hint" style="margin:12px 0 0">
+    「拐點」＝ 38.5 等效公里，即現有證據的邊界。拐點之前沿用原指數，拐點之後把指數加上增量 ——
+    疲勞只加在從未觀測過的那一段。中央值 <b>+0.13</b> 由 3 月 22 日賽事反推；
+    「離心下降項」只在最保守情境出現，屬假設而非實測（100 km 的下降量約為共同長課的 3–5 倍）。
+    要收窄這個區間，最直接的方法不是調參數，而是把觀測範圍拉長 —— 做一次 8–10 小時的共同長課。
+  </p>
 </div>
 
 <div class="tablewrap proj" style="margin-bottom:16px">
@@ -350,7 +377,7 @@
     <th>跑手</th><th>9/12 日</th><th>9/19 夜</th><th>兩次合計</th>
     <th>心率</th><th>個人推算 100 km</th><th>可能範圍</th><th>備戰分</th>
   </tr></thead>
-  <tbody><tr><td><span class="who"><i style="background:#4fd1c5"></i>Aiden W.</span> <span class="tag hot">定速者</span></td><td data-l="9/12 日">10.04<span class="dim"> · 5h33</span></td><td data-l="9/19 夜">9.79<span class="dim"> · 6h04</span></td><td data-l="兩次合計"><b>9.90</b></td><td data-l="心率">134</td><td data-l="個人推算 100 km">28h10</td><td data-l="可能範圍" class="dim">26h58 – 30h22</td><td data-l="備戰分">46/100</td></tr><tr><td><span class="who"><i style="background:#f6ad55"></i>Justin L.</span></td><td data-l="9/12 日">9.71<span class="dim"> · 5h36</span></td><td data-l="9/19 夜">9.54<span class="dim"> · 6h15</span></td><td data-l="兩次合計"><b>9.63</b></td><td data-l="心率">143</td><td data-l="個人推算 100 km">27h16</td><td data-l="可能範圍" class="dim">26h14 – 29h15</td><td data-l="備戰分">61/100</td></tr><tr><td><span class="who"><i style="background:#b794f4"></i>Ryan K.</span> <span class="tag hot">定速者</span></td><td data-l="9/12 日">10.22<span class="dim"> · 5h39</span></td><td data-l="9/19 夜">9.55<span class="dim"> · 6h14</span></td><td data-l="兩次合計"><b>9.86</b></td><td data-l="心率">132</td><td data-l="個人推算 100 km">28h04</td><td data-l="可能範圍" class="dim">26h15 – 30h56</td><td data-l="備戰分">78/100</td></tr><tr><td><span class="who"><i style="background:#7fb2f0"></i>Alan N.</span></td><td data-l="9/12 日">10.22<span class="dim"> · 5h39</span></td><td data-l="9/19 夜">9.74<span class="dim"> · 6h15</span></td><td data-l="兩次合計"><b>9.96</b></td><td data-l="心率">105</td><td data-l="個人推算 100 km">28h19</td><td data-l="可能範圍" class="dim">26h45 – 30h56</td><td data-l="備戰分">100/100</td></tr></tbody>
+  <tbody><tr><td><span class="who"><i style="background:#4fd1c5"></i>Aiden W.</span> <span class="tag hot">定速者</span></td><td data-l="9/12 日">10.04<span class="dim"> · 5h33</span></td><td data-l="9/19 夜">9.79<span class="dim"> · 6h04</span></td><td data-l="兩次合計"><b>9.90</b></td><td data-l="心率">134</td><td data-l="個人推算 100 km">33h28</td><td data-l="可能範圍" class="dim">29h59 – 45h19</td><td data-l="備戰分">46/100</td></tr><tr><td><span class="who"><i style="background:#f6ad55"></i>Justin L.</span></td><td data-l="9/12 日">9.71<span class="dim"> · 5h36</span></td><td data-l="9/19 夜">9.54<span class="dim"> · 6h15</span></td><td data-l="兩次合計"><b>9.63</b></td><td data-l="心率">143</td><td data-l="個人推算 100 km">32h22</td><td data-l="可能範圍" class="dim">29h07 – 43h15</td><td data-l="備戰分">61/100</td></tr><tr><td><span class="who"><i style="background:#b794f4"></i>Ryan K.</span> <span class="tag hot">定速者</span></td><td data-l="9/12 日">10.22<span class="dim"> · 5h39</span></td><td data-l="9/19 夜">9.55<span class="dim"> · 6h14</span></td><td data-l="兩次合計"><b>9.86</b></td><td data-l="心率">132</td><td data-l="個人推算 100 km">33h18</td><td data-l="可能範圍" class="dim">29h09 – 46h13</td><td data-l="備戰分">78/100</td></tr><tr><td><span class="who"><i style="background:#7fb2f0"></i>Alan N.</span></td><td data-l="9/12 日">10.22<span class="dim"> · 5h39</span></td><td data-l="9/19 夜">9.74<span class="dim"> · 6h15</span></td><td data-l="兩次合計"><b>9.96</b></td><td data-l="心率">105</td><td data-l="個人推算 100 km">33h39</td><td data-l="可能範圍" class="dim">29h44 – 46h13</td><td data-l="備戰分">100/100</td></tr></tbody>
 </table>
 </div>
 <p class="hint" style="margin:-4px 0 16px">
